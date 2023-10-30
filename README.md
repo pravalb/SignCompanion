@@ -11,18 +11,18 @@ They aspire to connect with the Deaf community and break communication barriers.
 Meanwhile, students, educators, and professionals require a structured curriculum aligned with academic and professional standards, 
 certification options, resources for teaching, accessibility features, and opportunities for continual skill enhancement.
 # Features
-1	Interactive sign language lessons.
-2	Videos and animations for better understanding.
-3	Dictionary with a comprehensive library of signs.
-4	Customization and accessibility options.
-5	Progress tracking and certificates.
+1. Interactive sign language lessons.
+2. Videos and animations for better understanding.
+3. Dictionary with a comprehensive library of signs.
+4. Customization and accessibility options.
+5. Progress tracking and certificates.
 # How these features will cater the user needs
-1	Interactive lessons provide a hands-on learning experience, helping users practice signs, gestures, and expressions effectively.
-2	Videos and animations offer visual context, demonstrating how signs are formed and used in real-life situations, enhancing comprehension
-3	A comprehensive sign dictionary offers a searchable resource, allowing users to quickly find and learn new signs and their meanings.
-4	Progress tracking and certificates offer users a way to measure their achievements, set goals, and receive recognition for their proficiency in sign language.
-5	Customization and accessibility options allow users to tailor the app to their unique needs, whether it's adjusting settings for accessibility, 
-  personalizing lessons, or accommodating different learning styles.
+1. Interactive lessons provide a hands-on learning experience, helping users practice signs, gestures, and expressions effectively.
+2. Videos and animations offer visual context, demonstrating how signs are formed and used in real-life situations, enhancing comprehension
+3. A comprehensive sign dictionary offers a searchable resource, allowing users to quickly find and learn new signs and their meanings.
+4. Progress tracking and certificates offer users a way to measure their achievements, set goals, and receive recognition for their proficiency in sign language.
+5. Customization and accessibility options allow users to tailor the app to their unique needs, whether it's adjusting settings for accessibility, 
+   personalizing lessons, or accommodating different learning styles.
 # UI Mocks and Flow
 https://drive.google.com/file/d/1129RsTv0ySMczP5s5N7DG_jc4PVebuFL/view?usp=drive_link
 # UserFlow
