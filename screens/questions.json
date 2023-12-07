@@ -1,0 +1,166 @@
+{
+    "questions": [
+        {
+            "question": "The ASL sign for 'MOM' is",
+            "answers": [
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/34/34169.mp4" },
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/21/21570.mp4" },
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/21/21584.mp4" },
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/23/23355.mp4" }
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "The ASL sign for Alphabet 'G' is",
+            "answers": [
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/26/26717.mp4" },
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/26/26716.mp4" },
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/26/26719.mp4" },
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/26/26714.mp4" }
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "The ASL sign for color 'PINK' is",
+            "answers": [
+               {"uri": "https://www.signingsavvy.com/media2/mp4-ld/23/23355.mp4"}, 
+               {"uri": "https://www.signingsavvy.com/media2/mp4-ld/34/34509.mp4"},
+               {"uri": "https://www.signingsavvy.com/media2/mp4-ld/22/22812.mp4"},
+               {"uri": "https://www.signingsavvy.com/media2/mp4-ld/34/34511.mp4"}
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "In ASL, the sign for 'SATURDAY' is ",
+            "answers": [
+                {"uri": "https://www.signingsavvy.com/media2/mp4-ld/26/26452.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/26/26454.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/26/26450.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/26/26448.mp4"}
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "The ASL sign for 'Happiness'often involves:",
+            "answers": [
+                {"uri": "https://www.signingsavvy.com/media2/mp4-ld/26/26957.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/32/32402.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/23/23649.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/25/25423.mp4"}
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "How is the sign for 'WHERE' represented in ASL?",
+            "answers": [
+                { "uri": "https://www.signingsavvy.com/media2/mp4-ld/21/21595.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34419.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/27/27841.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/21/21562.mp4"}
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "The ASL sign for 'How are you?' involves:",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/22/22100.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/32/32333.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34257.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/22/22743.mp4"}
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "How do you sign 'I love you' in ASL?",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34257.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34746.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34257.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/21/21562.mp4"}
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "The sign for 'RUN' in ASL is typically represented by:",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/21/21560.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34746.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/33/33565.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/27/27833.mp4"}
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "In ASL, how is the concept of 'CONFUSED' often expressed?",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/30/30705.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/23/23649.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/33/33565.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/27/27833.mp4"}
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "The sign for 'What time is it?' in ASL involves:",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34746.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/22/22743.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/26/26042.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/32/32333.mp4"}
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "How is the concept of 'Eat' expressed in ASL?",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/33/33736.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/23/23907.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/26/26042.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/29/29822.mp4"}
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "The ASL sign for 'Sorry' involves:",
+            "answers": [
+                {"uri": "https://www.signingsavvy.com/media2/mp4-ld/21/21532.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/32/32402.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/23/23649.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/25/25423.mp4"}
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "How do you sign 'TEACH' in ASL?",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/21/21560.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34746.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/33/33565.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34455.mp4"}
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "The ASL sign for 'Angry' involves:",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/30/30705.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/32/32402.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/33/33565.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/27/27833.mp4"}
+            
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "How is the concept of 'I'm hungry' expressed in ASL?",
+            "answers": [
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/25/25899.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/32/32333.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/34/34257.mp4"},
+                {"uri":"https://www.signingsavvy.com/media2/mp4-ld/22/22743.mp4"}
+            ],
+            "correctIndex": 0
+        }
+    ]
+}
+

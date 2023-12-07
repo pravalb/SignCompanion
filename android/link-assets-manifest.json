@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/GreatVibesRegular.ttf",
+      "sha1": "4dd3bad8fb151d31eedee2676488f94f831bf515"
+    },
+    {
+      "path": "assets/fonts/NovaSquareRegular.ttf",
+      "sha1": "08c92a5ce9ab8520b50630012a5c320288ffff42"
+    },
+    {
+      "path": "assets/fonts/Pacifico-Regular.ttf",
+      "sha1": "baca1fca7fe74b61cb33aa0da48ec1a3a77bcf49"
+    },
+    {
+      "path": "assets/audio/video.mp4",
+      "sha1": "8677c77e59f3618770d8eaa4de44bff679c783b3"
+    },
+    {
+      "path": "assets/audio/video2.mp4",
+      "sha1": "42470d2ae7a7a37e337d6ba467a58548493bc7a9"
+    }
+  ]
+}
