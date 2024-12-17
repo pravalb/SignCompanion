@@ -1,34 +1,60 @@
-# SignCompanion
+# SignConnect
 # About
-Introducing our Sign Learning App "SignCompanion" - where words become signs and signs become bridges.
-SignCompanion empowers you to learn sign language effortlessly and connect with the Deaf community, breaking down communication barriers. 
-With interactive lessons, a comprehensive sign library, SignCompanion is your guide to mastering sign language. 
-Join us in promoting inclusivity and bridging the gap between the hearing and Deaf worlds. 
-# Description of User and their needs
-Users of the SignCompanion encompass individuals interested in learning sign language and students, educators, and professionals.
-The SignCompanion provides comprehensive lessons, flexibility in learning schedules, progress tracking, and a sense of community and support. 
-They aspire to connect with the Deaf community and break communication barriers. Meanwhile, students, educators, and professionals require a structured curriculum aligned with academic and professional standards, certification options, resources for teaching, accessibility features, and opportunities for continual skill enhancement.
+SignConnect is an interactive and innovative mobile application designed to empower users to learn and practice sign language seamlessly. The app bridges the communication gap between Deaf and hearing individuals by leveraging cutting-edge technologies such as TensorFlow.js, OpenCV, and Streamlit for real-time and image-based sign language detection. Built with React Native, SignConnect ensures accessibility across Android and iOS platforms while delivering an intuitive and user-friendly experience.
+# Description of Users
+SignConnect caters to a broad range of users, including:
+Students: Individuals learning sign language for academic purposes or personal growth.
+Teachers and Educators: Facilitators teaching sign language who need tools to simplify the learning process.
+Deaf and Hard-of-Hearing Communities: Users who want to improve their communication skills or engage with sign language learning resources.
+General Enthusiasts: People interested in learning sign language to foster inclusion and connect with the Deaf community.
+# User Needs:
+An accessible platform to learn and practice sign language.
+Tools to track learning progress and revisit challenging concepts.
+A real-time sign detection system to test their gestures and get feedback.
+A user-friendly interface with features that simplify navigation and learning.
+The ability to review mistakes and continuously improve.
 # Features
-1. Interactive sign language lessons.
-2. Videos and animations for better understanding.
-3. Quizzes for practice.
-4. Progress tracking.
-# How these features will cater the user needs
-1. Interactive lessons provide a hands-on learning experience, helping users practice signs, gestures, and expressions effectively.
-2. Videos and animations offer visual context, demonstrating how signs are formed and used in real-life situations, enhancing comprehension
-3. Practice quizzes are available to test the knowledge gained through learning.
-4. Progress tracking offer users a way to measure their achievements, set goals, and receive recognition for their proficiency in sign language.
-# UI Mocks and Flow
-https://drive.google.com/file/d/1129RsTv0ySMczP5s5N7DG_jc4PVebuFL/view?usp=drive_link
-# UserFlow
- 1. When a new user first opens the SignCompanion app, they are greeted with a welcome screen and prompted to select their language 
-    and preferences and option to login in / signup."
- 2. The home screen features a ""Start Learning"" button and quick access buttons to explore sign language dictionary,
-    track their progress."
- 3. Upon clicking ""Start Learning"" the user is presented with a lesson selection screen that includes various topics.
-    They can navigate between the lessons, track their progress, and review their achievementss."
- 4.The user can access the practice screen from the home screen which includes quizzes to test the knowledge gained through learning.
- 5. User can access their profile about their info and the “About” page a guide for the SignCompanion.
+The following features are designed to meet user needs and ensure a smooth learning experience:
+
+Start Learning
+Structured learning modules with visuals, text instructions, and gesture explanations.
+A Progress Tracker to monitor completed lessons and remaining topics.
+
+Sign Detect
+Real-Time Detection: Detect sign language gestures through a live camera feed and provide instant feedback in text form.
+Image-Based Detection: Upload an image of a hand gesture for analysis and receive feedback on the detected sign.
+
+Test Your Knowledge
+Interactive quizzes to test users’ understanding of learned gestures.
+Immediate feedback on correct and incorrect answers to reinforce learning.
+
+Mistake Tracker
+A personalized tracker that saves incorrect answers from quizzes and lessons.
+Allows users to revisit mistakes, view explanations, and retake lessons.
+
+Favorites
+Save favorite lessons, gestures, or quizzes for quick and easy access.
+
+Profile
+Displays user details, overall progress, and achievements.
+Allows users to update their profile information.
+
+About Us
+Provides information about the app’s purpose, its role in promoting inclusion, and the technologies used.
+
+# How these features will cater to the user needs
+1. The Start Learning section provides structured, step-by-step learning modules, making it easy for beginners and advanced users to practice 
+   and progress.
+2. The Sign Detect feature offers Real-Time Detection using a webcam and Image-Based Detection for uploaded images, enabling immediate gesture 
+   recognition and feedback.
+3. The Progress Tracker helps users monitor their achievements and completed modules, motivating them to advance systematically.
+4. The Mistake Tracker saves incorrect answers, allowing users to review and revisit challenging topics for targeted improvement.
+5. The Favorites feature allows users to bookmark lessons or gestures, ensuring they can quickly access their preferred content without 
+   searching.
+6. The app’s Profile section provides a personalized dashboard to track user data and achievements, while the intuitive UI ensures smooth 
+   navigation through all features.
+7. The Test Your Knowledge feature allows users to practice through quizzes, reinforcing their learning while receiving immediate feedback on 
+   performance.
 
 
 
