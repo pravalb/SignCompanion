@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676031606523",
+    "firebase_url": "https://signcompanion-406423-default-rtdb.firebaseio.com",
+    "project_id": "signcompanion-406423",
+    "storage_bucket": "signcompanion-406423.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676031606523:android:eeb71a2567b78ffe548a5e",
+        "android_client_info": {
+          "package_name": "com.signconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676031606523-fnj5i2m5jttemgbjg1dft5dd3f3fjulj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.signconnect",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "676031606523-s9hp8bjc8ati57mkiork4kp4bkm3i50c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOyyIZ7E769D6fjv71DKy-aarc_rDjkyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676031606523-s9hp8bjc8ati57mkiork4kp4bkm3i50c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

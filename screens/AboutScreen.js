@@ -3,60 +3,52 @@ import { StyleSheet,ScrollView, View, Image, TouchableOpacity, Text } from 'reac
 import aboutus from '../assets/images/aboutus.png';
 const AboutScreen = ({ navigation }) => {
   return (
-    <ScrollView>
-     <Image source={aboutus} style={[styles.logo]} resizeMode = "cover"/>
-    <Text style={styles.head}>SignCompanion</Text>
-    <Text style={styles.text}>Introducing our Sign Learning App "Sign Companion" - where words become signs and signs become bridges.</Text>
-<Text style={styles.text}>SignCompanion empowers you to learn sign language effortlessly and connect with the Deaf community, breaking down communication barriers.</Text>
-<Text style={styles.text}>With interactive lessons, a comprehensive sign library, SignCompanion is your guide to mastering sign language.</Text>
-<Text style={styles.text}>Join us in promoting inclusivity and bridging the gap between the hearing and Deaf worlds. </Text>
+    <ScrollView contentContainerStyle={styles.scrollContainer}>
+     <Image source={aboutus} style={[styles.logo]} resizeMode = "contain"/>
+    <Text style={styles.head}>SignConnect</Text>
+    <Text style={styles.text}>Introducing our Sign Learning App "SignConnect" - where words become signs and signs become bridges. SignConnect empowers you to learn sign language effortlessly and connect with the Deaf community, breaking down communication barriers. With interactive lessons and real time sign detection, SignConnect is your guide to mastering sign language. Join us in promoting inclusivity and bridging the gap between the hearing and Deaf worlds.</Text>
 <Text>   </Text>
 <Text style={styles.smallhead}>Features</Text>
-<Text style={styles.text}>⚫ Interactive sign language lessons</Text>
-<Text style={styles.text}>⚫ Videos and animations for better understanding.</Text>
-<Text style={styles.text}>⚫ Dictionary with a comprehensive library of signs.</Text>
-<Text style={styles.text}>⚫ Customization and accessibility options.</Text>
-<Text style={styles.text}>⚫ Progress tracking and certificates.</Text>
+<Text style={styles.text}>● Interactive sign language lessons</Text>
+<Text style={styles.text}>● Videos and animations for better understanding.</Text>
+<Text style={styles.text}>● Real-Time Sign Detection: Master Any Sign</Text>
+<Text style={styles.text}>● Progress tracking and Practice Sessions.</Text>
+<Text style={styles.text}>● Customization and accessibility options.</Text>
 <Text>  </Text>
-<Text style={styles.smallhead}>Navigation</Text>
-<Text style={styles.text}>⚫ SignCompanion Welcome Screen allows user to Login/Signup</Text>
-<Text style={styles.text}>⚫ Home screen features a Start Learning, Sign language dictionary and Stats to track their progress.</Text>
-<Text style={styles.text}>⚫ Start Learning presents the user with a different lessons to master sign language.</Text>
-<Text style={styles.text}>⚫ Sign dictionary  includes a search bar that allows the user to look up specific signs. </Text>
-<Text style={styles.text}>⚫ Track progress and achievements from the home screen that includes completed lessons and progress statistics.
-</Text>
-<Text>  </Text>
+
 <Text style={styles.smallhead}>Creator</Text>
 <Text style={styles.name}>Pravallika Bahadur</Text>
     </ScrollView>
   )
 }
 const styles = StyleSheet.create({
+  
 head: {
-    fontSize: 40,
-    color: '#840000',
-    fontFamily: "Pacifico-Regular",
+    fontSize: 35,
+    color: 'black',
+    fontFamily: "Poppins-Bold",
     marginBottom: 10,
     textAlign:'center',
+    paddingTop: 20
   },
 smallhead:{
         fontSize: 25,
-        color: '#840000',
-        fontFamily: "Pacifico-Regular",
+        color: 'black',
+        fontFamily: "Poppins-SemiBold",
         marginBottom: 10,
         textAlign:'center',
       },
 name: {
         fontSize: 22,
-        color: 'black',
-        fontFamily: "Pacifico-Regular",
+        color: '#c23a22',
+        fontFamily: "Poppins-Bold",
         marginBottom: 10,
         textAlign:'center',
       },
 text:{
     color: 'black',
-    fontWeight: 'bold',
     fontSize: 15,
+    fontFamily: 'Poppins-Regular',
     textAlign: 'left',
     marginLeft:10,
   },
@@ -65,7 +57,6 @@ text:{
     height: 200,
     marginTop: 10,
     marginBottom: 0,
-    alignContent:'center',
   },
 });
 export default AboutScreen;

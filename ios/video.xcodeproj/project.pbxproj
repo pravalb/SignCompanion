@@ -12,13 +12,25 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		159DEB5B3EC347639FCB1AB6 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF6524F461B14D5DB40A3126 /* Poppins-ExtraBold.ttf */; };
+		2C453699095A4BDB91C42AD7 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BABADAE1B6204C838F795052 /* video2.mp4 */; };
+		308CF076767E4818A710DD6B /* GreatVibesRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B6CB0925FB444768859F181 /* GreatVibesRegular.ttf */; };
+		4611A8E8C880474F898C5527 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0554D3C31FC4537803746E7 /* Poppins-BoldItalic.ttf */; };
+		522098DE6BDA4145B1D8FB83 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8013B122EE824E368FE62B96 /* Pacifico-Regular.ttf */; };
+		67DDAA8A70824A00BEB61274 /* NovaSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2128EFF8A3504DCAB53A1DCB /* NovaSquareRegular.ttf */; };
+		6DDA8B93FC3A4FD4AB410249 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6192AC2B494E88AB80DF7F /* Entypo.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-video-videoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-video-videoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		844FFC1064B141FFAF62ED0E /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18A5A9D909834726886FD23C /* MaterialCommunityIcons.ttf */; };
 		913319C137874C0CAEADA638 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 422D1AF040F348D6BB261909 /* video.mp4 */; };
-		308CF076767E4818A710DD6B /* GreatVibesRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B6CB0925FB444768859F181 /* GreatVibesRegular.ttf */; };
-		522098DE6BDA4145B1D8FB83 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8013B122EE824E368FE62B96 /* Pacifico-Regular.ttf */; };
-		2C453699095A4BDB91C42AD7 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BABADAE1B6204C838F795052 /* video2.mp4 */; };
-		67DDAA8A70824A00BEB61274 /* NovaSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2128EFF8A3504DCAB53A1DCB /* NovaSquareRegular.ttf */; };
+		97DA2083680A4808AC39900E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4B9394653C241F5BB679788 /* Poppins-Regular.ttf */; };
+		9C5C78A5AE274480B0DADF9B /* Pacifico-Regular copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4843064CB0D04AE6AA481A01 /* Pacifico-Regular copy.ttf */; };
+		AB37A46CB5A249F58AE3F0EA /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDC5722A28468BABFD0A57 /* MaterialIcons.ttf */; };
+		AB8BF93CC7004A7085CD634F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 341EB553DFA64EED80A2545E /* Ionicons.ttf */; };
+		BB4E0651CD264BE09ACEA797 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 083136DB5F0647648E67104A /* Poppins-SemiBold.ttf */; };
+		DBBF639FB74044D4966CCDB9 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7E4FE0CF8C4CD69A082789 /* Poppins-Light.ttf */; };
+		F38E4013F7144836AE1A2122 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E0ACD0C558453A81517BEE /* Poppins-Bold.ttf */; };
+		FB34F507EC1E41119BF473C8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F571FC9E81A4592840B5854 /* SimpleLineIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,25 +47,37 @@
 		00E356EE1AD99517003FC87E /* videoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* videoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoTests.m; sourceTree = "<group>"; };
+		083136DB5F0647648E67104A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		0B6CB0925FB444768859F181 /* GreatVibesRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = GreatVibesRegular.ttf; path = ../assets/fonts/GreatVibesRegular.ttf; sourceTree = "<group>"; };
+		0DDDC5722A28468BABFD0A57 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		0F571FC9E81A4592840B5854 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = video/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = video/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = video/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = video/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = video/main.m; sourceTree = "<group>"; };
+		18A5A9D909834726886FD23C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-video-videoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-video-videoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2128EFF8A3504DCAB53A1DCB /* NovaSquareRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NovaSquareRegular.ttf; path = ../assets/fonts/NovaSquareRegular.ttf; sourceTree = "<group>"; };
+		341EB553DFA64EED80A2545E /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video.debug.xcconfig"; path = "Target Support Files/Pods-video/Pods-video.debug.xcconfig"; sourceTree = "<group>"; };
+		422D1AF040F348D6BB261909 /* video.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = video.mp4; path = ../assets/audio/video.mp4; sourceTree = "<group>"; };
+		4843064CB0D04AE6AA481A01 /* Pacifico-Regular copy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular copy.ttf"; path = "../assets/fonts/Pacifico-Regular copy.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video.release.xcconfig"; path = "Target Support Files/Pods-video/Pods-video.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-video-videoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video-videoTests.debug.xcconfig"; path = "Target Support Files/Pods-video-videoTests/Pods-video-videoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-video.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-video.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7E4FE0CF8C4CD69A082789 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		8013B122EE824E368FE62B96 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular.ttf"; path = "../assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = video/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-video-videoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video-videoTests.release.xcconfig"; path = "Target Support Files/Pods-video-videoTests/Pods-video-videoTests.release.xcconfig"; sourceTree = "<group>"; };
+		95E0ACD0C558453A81517BEE /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A4B9394653C241F5BB679788 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BABADAE1B6204C838F795052 /* video2.mp4 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = video2.mp4; path = ../assets/audio/video2.mp4; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		422D1AF040F348D6BB261909 /* video.mp4 */ = {isa = PBXFileReference; name = "video.mp4"; path = "../assets/audio/video.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0B6CB0925FB444768859F181 /* GreatVibesRegular.ttf */ = {isa = PBXFileReference; name = "GreatVibesRegular.ttf"; path = "../assets/fonts/GreatVibesRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8013B122EE824E368FE62B96 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; name = "Pacifico-Regular.ttf"; path = "../assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BABADAE1B6204C838F795052 /* video2.mp4 */ = {isa = PBXFileReference; name = "video2.mp4"; path = "../assets/audio/video2.mp4"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2128EFF8A3504DCAB53A1DCB /* NovaSquareRegular.ttf */ = {isa = PBXFileReference; name = "NovaSquareRegular.ttf"; path = "../assets/fonts/NovaSquareRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED6192AC2B494E88AB80DF7F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		EF6524F461B14D5DB40A3126 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F0554D3C31FC4537803746E7 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +147,30 @@
 			name = Libraries;
 			sourceTree = "<group>";
 		};
+		83ACD4851C7D445E8227316C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				422D1AF040F348D6BB261909 /* video.mp4 */,
+				0B6CB0925FB444768859F181 /* GreatVibesRegular.ttf */,
+				8013B122EE824E368FE62B96 /* Pacifico-Regular.ttf */,
+				BABADAE1B6204C838F795052 /* video2.mp4 */,
+				2128EFF8A3504DCAB53A1DCB /* NovaSquareRegular.ttf */,
+				ED6192AC2B494E88AB80DF7F /* Entypo.ttf */,
+				341EB553DFA64EED80A2545E /* Ionicons.ttf */,
+				18A5A9D909834726886FD23C /* MaterialCommunityIcons.ttf */,
+				0DDDC5722A28468BABFD0A57 /* MaterialIcons.ttf */,
+				4843064CB0D04AE6AA481A01 /* Pacifico-Regular copy.ttf */,
+				95E0ACD0C558453A81517BEE /* Poppins-Bold.ttf */,
+				F0554D3C31FC4537803746E7 /* Poppins-BoldItalic.ttf */,
+				EF6524F461B14D5DB40A3126 /* Poppins-ExtraBold.ttf */,
+				7C7E4FE0CF8C4CD69A082789 /* Poppins-Light.ttf */,
+				A4B9394653C241F5BB679788 /* Poppins-Regular.ttf */,
+				083136DB5F0647648E67104A /* Poppins-SemiBold.ttf */,
+				0F571FC9E81A4592840B5854 /* SimpleLineIcons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
@@ -158,19 +206,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		83ACD4851C7D445E8227316C /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				422D1AF040F348D6BB261909 /* video.mp4 */,
-				0B6CB0925FB444768859F181 /* GreatVibesRegular.ttf */,
-				8013B122EE824E368FE62B96 /* Pacifico-Regular.ttf */,
-				BABADAE1B6204C838F795052 /* video2.mp4 */,
-				2128EFF8A3504DCAB53A1DCB /* NovaSquareRegular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -273,6 +308,18 @@
 				522098DE6BDA4145B1D8FB83 /* Pacifico-Regular.ttf in Resources */,
 				2C453699095A4BDB91C42AD7 /* video2.mp4 in Resources */,
 				67DDAA8A70824A00BEB61274 /* NovaSquareRegular.ttf in Resources */,
+				6DDA8B93FC3A4FD4AB410249 /* Entypo.ttf in Resources */,
+				AB8BF93CC7004A7085CD634F /* Ionicons.ttf in Resources */,
+				844FFC1064B141FFAF62ED0E /* MaterialCommunityIcons.ttf in Resources */,
+				AB37A46CB5A249F58AE3F0EA /* MaterialIcons.ttf in Resources */,
+				9C5C78A5AE274480B0DADF9B /* Pacifico-Regular copy.ttf in Resources */,
+				F38E4013F7144836AE1A2122 /* Poppins-Bold.ttf in Resources */,
+				4611A8E8C880474F898C5527 /* Poppins-BoldItalic.ttf in Resources */,
+				159DEB5B3EC347639FCB1AB6 /* Poppins-ExtraBold.ttf in Resources */,
+				DBBF639FB74044D4966CCDB9 /* Poppins-Light.ttf in Resources */,
+				97DA2083680A4808AC39900E /* Poppins-Regular.ttf in Resources */,
+				BB4E0651CD264BE09ACEA797 /* Poppins-SemiBold.ttf in Resources */,
+				FB34F507EC1E41119BF473C8 /* SimpleLineIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,9 +561,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 532332P35Z;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = video/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SignConnect;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +580,9 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.Pravallika.SignConnect;
 				PRODUCT_NAME = video;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -541,8 +595,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 532332P35Z;
 				INFOPLIST_FILE = video/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SignConnect;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,7 +613,9 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.Pravallika.SignConnect;
 				PRODUCT_NAME = video;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -593,7 +654,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -601,6 +662,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -621,12 +683,19 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -664,9 +733,13 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -684,12 +757,19 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

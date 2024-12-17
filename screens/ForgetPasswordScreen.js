@@ -8,6 +8,8 @@ import { useNavigation } from '@react-navigation/native';
 import { CommonActions } from '@react-navigation/native';
 import { FIREBASE_AUTH } from '../FirebaseConfig';
 import { sendPasswordResetEmail } from 'firebase/auth';
+import Ionicons from "react-native-vector-icons/Ionicons";
+import Entypo from 'react-native-vector-icons/Entypo';
 
 const ForgetPasswordScreen = () => {
   const navigation = useNavigation();
@@ -35,28 +37,24 @@ const ForgetPasswordScreen = () => {
   };
 
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContainer}>
       <SafeAreaView>
+      <TouchableOpacity style={styles.backButtonWrapper} onPress={() => navigation.navigate('User Login')}>
+        <Ionicons
+          name={"arrow-back-outline"}
+          color={'white'}
+          size={20}
+        />
+      </TouchableOpacity>
         <View>
         <Image source={ForgotLogo} style={[styles.logo]} resizeMode = "contain"/>
         </View>
-        <View style={{
-          flexDirection: 'row',
-          borderColor: "#c23a22",
-          borderWidth: 1,
-          borderRadius: 5,
-          padding: 10,
-          marginBottom: 25
-        }}>
+        <View style={styles.inputContainer}>
+      <Entypo name={"mail"} size ={30} color='#c23a22'/>
           <TextInput
-            placeholder='✉︎   Email ID'
-            style={{
-              color: "black",
-              flex: 1,
-              paddingVertical: 0,
-              fontSize: 20,
-              fontWeight: 'bold'
-            }}
+            style={styles.textInput}
+            placeholder="Email"
+            placeholderTextColor="black"
             keyboardType="email-address"
             onChangeText={(text) => {
               setEmail(text);
@@ -65,9 +63,9 @@ const ForgetPasswordScreen = () => {
           />
           {emailError ? <Text style={styles.errorText}>{emailError}</Text> : null}
         </View>
-
-        <TouchableOpacity onPress={handleResetPassword} style={styles.button}>
-          <Text style={styles.buttonText}>Reset Password</Text>
+  
+        <TouchableOpacity onPress={handleResetPassword} style={styles.loginButtonWrapper}>
+          <Text style={styles.loginText}>Reset Password</Text>
         </TouchableOpacity>
 
         {resetEmailSent && (
@@ -79,34 +77,65 @@ const ForgetPasswordScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  button: {
-    backgroundColor: '#c23a22',
-    paddingVertical: 15,
+  scrollContainer: {
+    flexGrow: 1,
+    justifyContent: 'center',
     paddingHorizontal: 20,
-    borderRadius: 10,
-    marginBottom: 30,
   },
-  buttonText: {
+  backButtonWrapper: {
+    height: 40,
+    width: 40,
+    backgroundColor: '#c23a22',
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  inputContainer: {
+    borderWidth: 1,
+    borderColor: '#c23a22',
+    borderRadius: 100,
+    paddingHorizontal: 20,
+    flexDirection: "row",
+    alignItems: "center",
+    padding: 5,
+    marginVertical: 10,
+  },
+  textInput: {
+    flex: 1,
+    paddingHorizontal: 10,
+    fontFamily: 'Poppins-Regular',
+  },
+  loginButtonWrapper: {
+    backgroundColor: '#c23a22',
+    borderRadius: 100,
+    marginTop: 20,
+  },
+  loginText: {
     color: 'white',
-    fontWeight: 'bold',
-    fontSize: 25,
-    textAlign: 'center',
+    fontSize: 20,
+    fontFamily: 'Poppins-SemiBold',
+    textAlign: "center",
+    padding: 10,
   },
   errorText: {
     color: 'red',
-    fontSize: 16,
-    marginBottom: 10,
+    fontSize: 10,
+    flex: 1,
+    paddingHorizontal: 10,
+    fontFamily: 'Poppins-Regular',
   },
   successText: {
     color: 'green',
-    fontSize: 16,
-    marginTop: 10,
+    fontSize: 12,
+    marginTop: 20,
+    textAlign: "center",
+    fontFamily: 'Poppins-Regular',
   },
   logo:{
-    width: 400,
-    height: 400,
-    marginBottom: 10,
-    alignContent:'center',
+    width: '100%', // Makes the image responsive
+    height: undefined,
+    aspectRatio: 1, // Keeps the aspect ratio of the image
+    marginBottom: Platform.OS === 'ios' ? 40 : 30, 
   },
 });
 

@@ -2,16 +2,64 @@
   "migIndex": 1,
   "data": [
     {
+      "path": "assets/fonts/Entypo.ttf",
+      "sha1": "12b5670eb178138f77285d5f2c246d3cc5fa67d6"
+    },
+    {
       "path": "assets/fonts/GreatVibesRegular.ttf",
       "sha1": "4dd3bad8fb151d31eedee2676488f94f831bf515"
+    },
+    {
+      "path": "assets/fonts/Ionicons.ttf",
+      "sha1": "86e07c3d974eb09099e6e5a9b3b8310303cf0feb"
+    },
+    {
+      "path": "assets/fonts/MaterialCommunityIcons.ttf",
+      "sha1": "4c2a838b00dbb5e8bb1b368fce0de534e8eb241c"
+    },
+    {
+      "path": "assets/fonts/MaterialIcons.ttf",
+      "sha1": "7e02c3f005532ff4d24148567c84089756a7848a"
     },
     {
       "path": "assets/fonts/NovaSquareRegular.ttf",
       "sha1": "08c92a5ce9ab8520b50630012a5c320288ffff42"
     },
     {
+      "path": "assets/fonts/Pacifico-Regular copy.ttf",
+      "sha1": "baca1fca7fe74b61cb33aa0da48ec1a3a77bcf49"
+    },
+    {
       "path": "assets/fonts/Pacifico-Regular.ttf",
       "sha1": "baca1fca7fe74b61cb33aa0da48ec1a3a77bcf49"
+    },
+    {
+      "path": "assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "assets/fonts/Poppins-BoldItalic.ttf",
+      "sha1": "6de8952ca08d27ee77f57347d2cef4b4e26aa78f"
+    },
+    {
+      "path": "assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "assets/fonts/SimpleLineIcons.ttf",
+      "sha1": "9ffb81a5a11112e292f2cc323e98486bad597599"
     },
     {
       "path": "assets/audio/video.mp4",
